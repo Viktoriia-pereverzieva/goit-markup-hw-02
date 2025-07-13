@@ -49,11 +49,11 @@ body {
 }
 
 .title {
-    background-color: 2E2F42;
+    background-color: #2E2F42;
 
 }
 
-.title .h1title {
+.title .htitle {
     font-size: 56px;
     font-weight: bold;
     line-height: 1.07;
@@ -75,7 +75,7 @@ body {
 
 .title .button:hover
 .title .button:focus {
-    color: 404BBF;
+    color: #404BBF;
 }
 
 
@@ -99,7 +99,18 @@ body {
     background-color: #F4F4FD;
 
 }
-.name-team {
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+
+.name-our-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -109,7 +120,7 @@ body {
 }
 
 
-.position-team {
+.position-our-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -121,10 +132,11 @@ body {
 .our-portf {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize
 }
 
 .service-portf {
@@ -147,8 +159,24 @@ body {
 
 
 footer {
-    background-color: 2E2F42;
+    background-color: #2E2F42;
 }
+
+
+.footer .web {
+            font-family: 'Raleway' sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+}
+
+.footer .stud {
+    color: #f4f4fd;
+}
+
 
 h2 {
     font-size: 36px;
