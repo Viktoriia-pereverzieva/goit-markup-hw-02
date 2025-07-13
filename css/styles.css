@@ -35,10 +35,25 @@ body {
     color:#404BBF;
 }
 
-.connect .addr {
-    color: #434455
+.nav .link {
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: #404BBF;
+}
+
+
+.connect .addr {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
 
 .connect .addr:hover,
@@ -78,7 +93,7 @@ body {
 
 .title .button:hover,
 .title .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 
