@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', sans-serif;
+    color: 2E2F42;
+    line-height: 1.5;
+
+}
+header {
+    background-color: #FFFFFF;
+}
+
+.nav a {
+    font-weight: 24px;
+}
+.nav a:hover
+.nav a:focus {
+    color:#404BBF;
+}
+
+.address a {
+    color: #434455
+}
+.address a:hover
+.address a:focus {
+    color: #404BBF;
+}
+
+.title {
+    background-color: 2E2F42;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.title .button {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: 2E2F42;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: medium;
+}
