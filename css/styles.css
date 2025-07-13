@@ -7,7 +7,7 @@ body {
 
 
 .nav .web {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -22,24 +22,27 @@ body {
 }
 
 
-.nav .link {
+.web .link {
     font-weight: 500;
-    font-weight: 24px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
-.nav a:hover
-.nav a:focus {
+.web .link:hover
+.web .link:focus {
     color:#404BBF;
 }
 
-.address .addr {
+.connect .addr {
     color: #434455
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.address .addr:hover
-.address .addr:focus {
+.connect .addr:hover,
+.connect .addr:focus {
     color: #404BBF;
 }
 
@@ -73,7 +76,7 @@ body {
     cursor: pointer;
 }
 
-.title .button:hover
+.title .button:hover,
 .title .button:focus {
     color: #404BBF;
 }
@@ -103,14 +106,19 @@ body {
 .our-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
+}
+
+.our-team .img {
+    background-color: #FFFFFF;
 }
 
 
-.name-our-team {
+.our-team .name-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -120,7 +128,7 @@ body {
 }
 
 
-.position-our-team {
+.our-team .position-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -147,7 +155,7 @@ body {
     color: #2E2F42;
 }
 
-.descr-portf {
+.our-team .descr-portf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -164,7 +172,7 @@ footer {
 
 
 .footer .web {
-            font-family: 'Raleway' sans-serif;
+            font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
             line-height: 1.17;
