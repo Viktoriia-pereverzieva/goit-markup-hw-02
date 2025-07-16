@@ -31,10 +31,14 @@ body {
 }
 
 .nav-list .link:hover,
-.naw-list .link:focus,
-.nav-list .link:active {
+.naw-list .link:link:focus {
     color:#404BBF;
 }
+
+.nav-list .links:active {
+    color: #404BBF;
+}
+
 
 .addres {
     font-style: normal;
