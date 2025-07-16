@@ -22,7 +22,7 @@ body {
 }
 
 
-.web .link {
+.nav-list .link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -30,22 +30,9 @@ body {
         color: #2E2F42;
 }
 
-.web .link:hover
-.web .link:focus {
+.nav-list .link:hover,
+.naw-list .link:focus {
     color:#404BBF;
-}
-
-.nav .link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.nav .link:hover,
-.nav .link:focus {
-    color: #404BBF;
 }
 
 
@@ -128,12 +115,12 @@ body {
     text-transform: capitalize;
 }
 
-.our-team .img {
+.team-list .img {
     background-color: #FFFFFF;
 }
 
 
-.our-team .name-team {
+.team-list .name-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,7 +130,7 @@ body {
 }
 
 
-.our-team .position-team {
+.team-list .position-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -170,7 +157,7 @@ body {
     color: #2E2F42;
 }
 
-.our-team .descr-portf {
+.change-portf .descr-portf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
