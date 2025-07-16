@@ -115,9 +115,11 @@ body {
     text-transform: capitalize;
 }
 
-.team-list .img {
+.team-list {
     background-color: #FFFFFF;
 }
+
+
 
 
 .team-list .name-team {
@@ -130,7 +132,7 @@ body {
 }
 
 
-.team-list .position-team {
+.position-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -157,7 +159,7 @@ body {
     color: #2E2F42;
 }
 
-.change-portf .descr-portf {
+.choice-portf .descr-portf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
